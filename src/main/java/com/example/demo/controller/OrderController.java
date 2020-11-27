@@ -58,4 +58,10 @@ public class OrderController {
         return    orderService.upd(teacher);
 
     }
+    @RequestMapping("/ttt")
+    public int sele(Teacher  teacher){
+        System.out.println("==================+=我们是d=========================================");
+        return    orderService.upd(teacher);
+
+    }
 }
