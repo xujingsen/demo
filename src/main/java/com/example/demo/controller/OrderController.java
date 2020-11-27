@@ -52,4 +52,10 @@ public class OrderController {
        return    orderService.upd(teacher);
 
    }
+    @RequestMapping("/add")
+    public int insert(Teacher  teacher){
+        System.out.println("==================+==tianjidslgj;ld=========================================");
+        return    orderService.upd(teacher);
+
+    }
 }
