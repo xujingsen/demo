@@ -2,29 +2,6 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.example.demo.mapper.OrderMapper">
 
-<select id="getList" resultType="com.example.demo.entity.Teacher">
-    select * from teacher
-</select>
-    <insert id="add" parameterType="Teacher">
-        insert  into teacher values(#{Tid},#{Tname})
-    </insert>
-    <delete id="del" parameterType="int">
-        delete from teacher where Tid=#{Tid}
-    </delete>
-   <!-- <update id="upd" parameterType="Teacher">
-        update teacher set Tid=#{Tid},Tname=#{Tname} where Tid=#{Tid}
-    </update>-->
 
-    <update id="upd" parameterType="Teacher">
-        update teacher
-        <set>
-            <if test="Tid != null and Tid !=''">
-                Tid = #{Tid},
-            </if>
-            <if test="Tname != null and Tname != ''">
-                Tname = #{Tname}
-            </if>
-        </set>
-        where Tid = #{Tid}
-    </update>
+
 </mapper>

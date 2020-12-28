@@ -8,9 +8,7 @@ import java.util.List;
 @Mapper
 public interface OrderMapper {
     List<Teacher> getList();
-    void add(Teacher teacher);
-    int  del(int Tid);
-    int upd(Teacher teacher);
+
 
 
 }

@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:mysql:///test?serverTimezone=UTC
+    url: jdbc:mysql://106.13.171.9:3306/youqiancheng?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&failOverReadOnly=false&useSSL=false&serverTimezone=Asia/Shanghai&allowMultiQueries=true
     username: root
-    password: root
+    password: lifei@518918
     driver-class-name: com.mysql.jdbc.Driver
 mybatis:
   mapper-locations: classpath*:mapper/*.xml
