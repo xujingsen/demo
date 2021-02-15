@@ -34,4 +34,10 @@ public class OrderController {
         return  null;
     }
 
+    //LOOk
+    @RequestMapping("/cc")
+    public B01User fintttt(){
+        return  null;
+    }
+
 }
