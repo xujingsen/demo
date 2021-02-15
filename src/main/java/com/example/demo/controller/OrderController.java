@@ -42,7 +42,7 @@ public class OrderController {
 
     //LOOk
     @RequestMapping("/dd")
-    public B01User ccc(){
+    public B01User mouse(){
         return  null;
     }
       //LOOk
