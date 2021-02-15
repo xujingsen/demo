@@ -36,7 +36,7 @@ public class OrderController {
 
     //LOOk
     @RequestMapping("/cc")
-    public B01User fintttt(){
+    public B01User fint(){
         return  null;
     }
 
