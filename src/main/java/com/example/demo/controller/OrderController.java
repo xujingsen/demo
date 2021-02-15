@@ -45,5 +45,10 @@ public class OrderController {
     public B01User ccc(){
         return  null;
     }
+      //LOOk
+    @RequestMapping("/dd")
+    public B01User cat(){
+        return  null;
+    }
 
 }
