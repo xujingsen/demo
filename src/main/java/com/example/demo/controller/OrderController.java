@@ -21,12 +21,6 @@ public class OrderController {
         return  b01UserService.get();
     }
 
-    //查询
-    @RequestMapping("/find")
-    public B01User findUser(){
-       return  null;
-    }
-
 
     //LOOk
     @RequestMapping("/aa")
