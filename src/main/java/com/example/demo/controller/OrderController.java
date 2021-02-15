@@ -47,7 +47,7 @@ public class OrderController {
     }
       //LOOk
     @RequestMapping("/dd")
-    public B01User cat(){
+    public B01User dog(){
         return  null;
     }
 
