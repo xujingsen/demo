@@ -34,4 +34,10 @@ public class OrderController {
         return  null;
     }
 
+    //LOOk
+    @RequestMapping("/bb")
+    public B01User bb(){
+        return  null;
+    }
+
 }
