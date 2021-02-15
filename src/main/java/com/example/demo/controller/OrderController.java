@@ -42,7 +42,7 @@ public class OrderController {
 
     //LOOk
     @RequestMapping("/dd")
-    public B01User cccdeg(){
+    public B01User ccc(){
         return  null;
     }
 
