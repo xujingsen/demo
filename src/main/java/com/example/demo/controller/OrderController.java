@@ -21,6 +21,12 @@ public class OrderController {
         return  b01UserService.get();
     }
 
+    //查询
+    @RequestMapping("/find")
+    public B01User findUser(){
+       return  null;
+    }
+
 
     //LOOk
     @RequestMapping("/aa")
@@ -45,10 +51,6 @@ public class OrderController {
     public B01User mouse(){
         return  null;
     }
-      //LOOk
-    @RequestMapping("/dd")
-    public B01User dogs(){
-        return  null;
-    }
+
 
 }
